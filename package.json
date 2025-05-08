@@ -1,0 +1,29 @@
+{
+  "name": "fruits-collection",
+  "version": "1.0.0",
+  "description": "A beautiful gallery of delicious fruits with descriptions and images",
+  "main": "netlify-deploy.js",
+  "scripts": {
+    "deploy": "node netlify-deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgordini/fruits-collection.git"
+  },
+  "keywords": [
+    "fruits",
+    "gallery",
+    "html",
+    "css",
+    "netlify"
+  ],
+  "author": "Jeremy Gee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgordini/fruits-collection/issues"
+  },
+  "homepage": "https://github.com/jgordini/fruits-collection#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.9"
+  }
+}
